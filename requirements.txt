@@ -3,4 +3,3 @@ ultralytics
 pafy
 youtube-dl
 yt_dlp
-cv2
