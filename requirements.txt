@@ -3,3 +3,11 @@ ultralytics
 pafy
 youtube-dl
 yt_dlp
+libgl1
+opencv-python-headless
+opencv_contrib_python
+opencv-python
+libglib2.0-0
+opencv-contrib-python
+opencv
+libgl1-mesa-glx
