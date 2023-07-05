@@ -1,0 +1,4 @@
+streamlit
+ultralytics
+pafy
+youtube-dl
