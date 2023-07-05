@@ -7,5 +7,4 @@ opencv-python-headless
 opencv_contrib_python
 opencv-python
 opencv-contrib-python
-opencv
 libgl1-mesa-glx
