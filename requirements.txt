@@ -2,3 +2,4 @@ streamlit
 ultralytics
 pafy
 youtube-dl
+yt_dlp
