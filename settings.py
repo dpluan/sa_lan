@@ -23,10 +23,10 @@ WEBCAM = 'Webcam'
 YOUTUBE = 'YouTube'
 
 SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, YOUTUBE]
-
+VIDEO_DIR = ROOT / 'videos'
 # Images config
 IMAGES_DIR = ROOT / 'images'
-DEFAULT_IMAGE = ROOT / 'default.jpg'
+DEFAULT_IMAGE = VIDEO_DIR / 'default.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'default_detected.jpg'
 
 # Videos config
