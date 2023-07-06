@@ -23,16 +23,18 @@ st.set_page_config(
 st.title("ỨNG DỤNG YOLOv8 ĐỂ PHÁT HIỆN CÁC TÀU, XÀ LAN CHỞ HÀNG QUÁ TẢI")
 
 # Sidebar
-st.sidebar.header("Chọn mô hình máy học")
+st.sidebar.header("Chọn độ tin cậy của mô hình")
 
 # Model Options
-model_type = st.sidebar.radio(
-    "Chọn công việc", ['Nhận dạng', 'Phân vùng'])
+#model_type = st.sidebar.radio(
+    #"Chọn công việc", ['Nhận dạng', 'Phân vùng'])
 
 confidence = float(st.sidebar.slider(
-    "Chọn độ tin cậy của mô hình", 25, 100, 40)) / 100
+    "Độ tin cậy", 25, 100, 40)) / 100
 
 # Selecting Detection Or Segmentation
+
+model_type = 'Nhận dạng'
 if model_type == 'Nhận dạng':
     model_path = Path(settings.DETECTION_MODEL)
 elif model_type == 'Phân vùng':
