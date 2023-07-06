@@ -26,8 +26,8 @@ SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, YOUTUBE]
 
 # Images config
 IMAGES_DIR = ROOT / 'images'
-DEFAULT_IMAGE = IMAGES_DIR / 'default.jpg'
-DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'default_detected.jpg'
+DEFAULT_IMAGE = IMAGES_DIR / 'default_detected.jpg'
+DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'default_detected1.jpg'
 
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
