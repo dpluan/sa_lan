@@ -13,14 +13,14 @@ import yt_dlp as youtube_dl
 
 # Setting page layout
 st.set_page_config(
-    page_title="Ứng dụng YOLOv8 để phát hiện các  tàu, xà lan chở hàng quá tải",
+    page_title="Ứng dụng YOLOv8 để phát hiện các  tàu, sà lan chở hàng quá tải",
     page_icon="DPL",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Main page heading
-st.title("ỨNG DỤNG YOLOv8 ĐỂ PHÁT HIỆN CÁC TÀU, XÀ LAN CHỞ HÀNG QUÁ TẢI")
+st.title("ỨNG DỤNG YOLOv8 ĐỂ PHÁT HIỆN CÁC TÀU, SÀ LAN CHỞ HÀNG QUÁ TẢI")
 
 # Sidebar
 st.sidebar.header("Chọn độ tin cậy của mô hình")
