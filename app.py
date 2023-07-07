@@ -47,9 +47,9 @@ except Exception as ex:
     st.error(f"Không thể nạp mô hình. Hãy kiểm tra lại đường dẫn chứa tệp weight của mô hình: {model_path}")
     st.error(ex)
 
-st.sidebar.header("Lựa chọn hình ảnh/ Video")
+st.sidebar.header("Chọn nguồn dữ liệu hình ảnh/ Video")
 source_radio = st.sidebar.radio(
-    "Chọn nguồn dữ liệu", settings.SOURCES_LIST)
+    "", settings.SOURCES_LIST)
 
 source_img = None
 # If image is selected
